@@ -1,0 +1,22 @@
+
+.footer{
+    background-color: #282828;
+    color: #99a9b5;
+    padding: 40px 0;
+}
+p{
+    padding:0;
+    margin:0;
+}
+
+.developer{
+    color: #6b7074;
+}
+.developerInfo{
+    color: #6b7074;
+    font-weight: 700;
+}
+.developerInfo:hover{
+    text-decoration: underline;
+    color: #6b7074;
+}

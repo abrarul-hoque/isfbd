@@ -1,0 +1,101 @@
+.mission-section{
+    padding: 60px;
+}
+
+.mission-title{
+    text-transform: uppercase;
+    font-size: 64px;
+    margin-bottom: 2%;
+    font-family: 'Noto Sans', sans-serif;
+}
+.mission-para{
+    color: #4c5c67;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+.mission-img-section{
+    padding:0;
+}
+.missionPic{
+    width:100%;
+    padding-left:0;
+}
+
+.mission-left-text{
+    color: white;
+    opacity: 100%;
+    font-size: 50px;
+    top: 30%;
+    left: 28%;
+    max-width: 100%;
+    position: absolute;
+    white-space: normal;
+    width: 75%;
+    z-index: 9999;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.studentText{
+    letter-spacing: 2px;
+    font-size: 65px;
+}
+.lernMoreBtn{
+    font-size: 19px;
+    color:#E7247D;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left:40% !important;
+    margin-top: 30px;
+}
+.lernMoreBtn:hover{
+    color:#ffffff;
+    background-color: rgb(108, 61, 145);
+    transition: 0.5s;
+}
+
+
+
+.mission-right-text{
+    color: white;
+    opacity: 100%;
+    font-size: 50px;
+    top: 30%;
+    left: 0;
+    right: 70% !important;
+    max-width: 100%;
+    position: absolute;
+    white-space: normal;
+    width: 75%;
+    z-index: 9999;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.helpText{
+    letter-spacing: 2px;
+    font-size: 65px;
+}
+.lernMoreBtn{
+    font-size: 19px;
+    color:#E7247D;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left:40% !important;
+    margin-top: 30px;
+}
+.lernMoreBtn:hover{
+    color:#ffffff;
+    background-color: rgb(108, 61, 145);
+    transition: 0.5s;
+}

@@ -1,0 +1,25 @@
+.logo{
+    width:200px;
+    height: 73px;
+}
+.nav-link{
+    color: #e7247d !important;
+    font-size: 18px !important;
+    padding: 10px 15px !important;
+}
+.nav-link:hover{
+    color: #ffffff !important;
+    font-size: 18px !important;
+    padding: 10px 15px !important;
+    background-color: #6c3d91;
+    border-radius: 10px;
+}
+
+
+
+/* * Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .logo{
+        width: 180px !important;
+    }
+}
