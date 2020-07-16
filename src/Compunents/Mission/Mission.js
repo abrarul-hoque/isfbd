@@ -11,7 +11,7 @@ const Mission = () => {
                 <p className="mission-para">International Student Foundation(ISF) is a private charitable organization, which helps youth who have <br /> been orphaned or aged out of foster care pursue a college education. ISF provides scholarships, <br /> mentoring, and leadership development to students accepted into its program</p>
             </div>
 
-            <div className="row">
+            <div className="row misstion-img">
                 <div className="col-md-6 mission-img-section">
                     <img className="missionPic" src={studentPinkColor} alt="" />
                     <div className="mission-left-text">
@@ -22,8 +22,8 @@ const Mission = () => {
                 <div className="col-md-6 mission-img-section">
                     <img className="missionPic" src={manOnComputer} alt="" />
                     <div className="mission-right-text">
-                        <h1>Looking to <br /><span className="helpText">Help?</span></h1>
-                        <button className="lernMoreBtn">Get Involved</button>
+                        <h1 className="lookingTo">Looking to <br /><span className="helpText">Help?</span></h1>
+                        <button className="gInvolvedBtn">Get Involved</button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,41 @@
+.aboutDesBg{
+    background-image: url(../../resource/image/group-photo-white-2.png);
+    text-align: center;
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+}
+
+.des-inner{
+    padding: 125px 110px;
+    color: #4c5c67;
+    text-align: center;
+}
+.aboutDesTitle{
+    font-size:48px;
+    font-family: 'Noto Sans';
+    padding-bottom: 45px;
+    color: #282828;
+}
+.aboutDescription{
+    font-size: 18px;
+    padding: 0px 50px;
+    line-height: 35px;
+    margin: 0 20px;
+}
+
+
+/* for small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .des-inner{
+        padding: 45px 10px;
+    }
+    .aboutDesTitle{
+        font-size:35px;
+    }
+    .aboutDescription{
+        font-size: 18px;
+        padding: 0px;
+        margin: 0 10px;
+    }
+}

@@ -42,3 +42,16 @@
     text-decoration: none;
     cursor:pointer;
 }
+
+/* For Small screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .event h1{
+        font-size: 40px !important;
+        padding: 50px 0px 50px;
+    }
+    .registerBtn{
+        font-size: 16px;
+        font-weight:700;
+        margin: 10px;
+    }
+}

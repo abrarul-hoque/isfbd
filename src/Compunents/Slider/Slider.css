@@ -52,10 +52,44 @@
 }
 
 
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 5%;
+    color: rgb(163, 148, 148);
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    background-color: #4c4c4c;
+    border-radius: 50%;
+}
+.carousel-control-next{
+    left:92%;
+    right: 2%;
+}
+.carousel-control-prev{
+    left:2%;
+    right: 92%;
+}
+
+
+
+
 /* * Small Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
-    .carousel-text{
+    .carousel-text h1{
         top:10%;
-        font-size: 20px;
+        font-size: 14px;
+    }
+    .italic-text{
+        font-size: 16px;
     }
 }

@@ -10,13 +10,13 @@ p{
 }
 
 .developer{
-    color: #6b7074;
+    color: #606162;
 }
 .developerInfo{
-    color: #6b7074;
+    color: #606162;
     font-weight: 700;
 }
 .developerInfo:hover{
     text-decoration: underline;
-    color: #6b7074;
+    color: #606162;
 }

@@ -1,0 +1,68 @@
+.contact{
+    background-image: url(../../resource/image//black-male-student-smiling-2.jpg);
+    text-align: center;
+    background-position: 50% 0;
+    background-size: cover;
+    position: relative;
+}
+.inner-box{
+    padding: 5% 10%;
+}
+
+.contactForm{
+    padding: 8% 5%;
+    border-radius: 10px;
+    background-color: rgb(31, 62, 153, 0.85);
+}
+
+.form-title{
+    font-size: 64px;
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.form{
+    padding: 20px;
+}
+.form-address{
+    padding-bottom: 18px !important;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #f0f0f0;
+}
+.form-phone{
+    padding-bottom: 18px !important;
+    font-family: 'Source Sans Pro';
+    color: #f0f0f0;
+}
+
+.submitBtn{
+    color: #ffffff;
+    background-color: #e7247d;
+    font-family: 'Helvetica', 'Arial';
+    font-weight: 700;
+}
+.submitBtn:hover{
+    color: #ffffff;
+    background-color:#a01ea0;
+}
+
+
+
+
+/* for small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .inner-box{
+        padding: 5% 6%;
+    }
+    
+    .form-title{
+        font-size: 36px;
+    }
+    .form{
+        padding: 10px;
+    }
+    .form-address{
+        font-size: 15px;
+    }
+}

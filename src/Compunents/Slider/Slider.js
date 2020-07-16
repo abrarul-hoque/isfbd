@@ -15,9 +15,9 @@ const Slider = () => {
                         alt="First slide"
                     />
                     <div className="doverlay"></div>
-                    <div className="carousel-text">
+                    <div className="carousel-text d-block">
                         <h1>Less than 3% of the youth <br/> who age out of foster care <br/> graduate from college,<br/> <span className="italic-text">YOU</span> can help change that. </h1>
-                        <button className="slider-btn">Donate</button>
+                        {/* <button className="slider-btn">Donate</button> */}
                     </div>
 
                 </Carousel.Item>

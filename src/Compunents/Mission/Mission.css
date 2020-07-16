@@ -81,7 +81,7 @@
     letter-spacing: 2px;
     font-size: 65px;
 }
-.lernMoreBtn{
+.gInvolvedBtn{
     font-size: 19px;
     color:#E7247D;
     padding: 10px 20px;
@@ -90,12 +90,72 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
+    position: re;
     left:40% !important;
     margin-top: 30px;
 }
-.lernMoreBtn:hover{
+.gInvolvedBtn:hover{
     color:#ffffff;
     background-color: rgb(108, 61, 145);
     transition: 0.5s;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    
+    .misstion-img{
+        margin: 0 !important;
+    }
+    .mission-title{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .mission-section{
+        padding: 60px 20px;
+    }
+    .mission-left-text{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        right: 0 !important;
+    }
+    .mission-left-text h1{
+        font-size: 32px;
+    }
+    .studentText{
+        letter-spacing: 2px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .lernMoreBtn{
+        letter-spacing: 2px;
+        font-size: 65px;
+    }
+    .lernMoreBtn{
+        font-size: 15px;
+        color:#E7247D;
+        position: absolute;
+        left: 18% !important;
+        margin-top: 10px !important;
+    }
+    .mission-right-text{
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+    .helpText{
+        letter-spacing: 2px;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .lookingTo{
+        font-size: 32px;
+    }
+    .gInvolvedBtn{
+        position: absolute;
+        left:15% !important;
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 700;
+    }
 }

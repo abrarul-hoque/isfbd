@@ -1,0 +1,36 @@
+.bStaffSection{
+    padding: 100px 120px;
+}
+
+.bStaffTitle{
+    font-family: 'Noto Sans';
+    font-size: 64px;
+    color: #282828;
+    margin-bottom: 50px;
+}
+
+.bStaffImg{
+    width: 100%;
+}
+
+.bStaffCaption{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: #4c5c67;
+    margin: 15px;
+}
+
+
+
+
+/* for small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .bStaffSection{
+        padding: 70px 15px;
+    }
+    .bStaffTitle{
+        font-size: 40px;
+        margin-bottom: 50px;
+        font-weight: 700;
+    }
+}
