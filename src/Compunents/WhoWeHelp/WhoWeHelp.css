@@ -41,13 +41,14 @@ ul{
     color: #4c5c67;
 }
 .cStudentImg{
-    width: 100%;
-    height:100%;
-    
+    width: 100%;  
+    height:100%; 
 }
-.w-100{
+/* .team-side-img{
     padding: 0;
-}
+    margin:0;
+} */
+
 .whoWeHelpImg{
     padding: 0 !important;
 }
@@ -60,3 +61,16 @@ ul{
     position: relative;
     padding: 0;
 } */
+
+
+
+/* * mobile/ Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .whoWeHelp{
+        padding: 50px 30px;
+    }
+    .whoWeHelp-title{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+}

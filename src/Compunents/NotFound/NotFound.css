@@ -1,0 +1,10 @@
+
+.notFound{
+    padding: 200px 0 100px 0;
+}
+
+
+/* * mobile/ Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    
+}

@@ -1,0 +1,22 @@
+.representative-block{
+    padding: 40px 0;
+}
+
+.representatives-title{
+    padding: 50px 0;
+    text-transform: uppercase;
+    color: #282828;
+    font-size: 64px;
+}
+
+
+
+
+
+/* * mobile/ Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .representatives-title{
+        padding: 20px 0;
+        font-size: 35px;
+    }
+}

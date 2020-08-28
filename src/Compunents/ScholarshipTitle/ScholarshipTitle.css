@@ -1,0 +1,31 @@
+
+
+.scholarshipTitleBg{
+    background-image: url(../../resource/image/Gala-dark.jpg);
+    text-align: center;
+    background-position: 50% 0;
+    background-size: cover;
+    padding: 140px 0 80px 0;
+    position: relative;
+}
+
+.scholarshipTitle h1{
+    padding: 80px 0;
+    font-size: 60px !important;
+    font-weight: 800;
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 3px;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .scholarshipTitleBg{
+        padding: 50px 0;
+    }
+    .scholarshipTitle h1{
+        padding: 110px 0 30px 0 !important;
+        font-size: 25px !important;
+    }
+}

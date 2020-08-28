@@ -1,0 +1,31 @@
+
+
+
+/* .staff-section{
+    padding: 8% 10%;
+    background-image: linear-gradient(145deg, #1f3E99, #6c3d91 ,#e7247d);
+} */
+
+.cards{
+    margin-bottom: 30px;
+}
+
+.meetTeam-title h1{
+    padding: 80px 0;
+    font-size: 80px !important;
+    font-weight: 800;
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    color:#e6e6e6;
+    letter-spacing: 3px;
+}
+
+
+
+/* * mobile/ Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .meetTeam-title h1{
+        padding: 80px 0;
+        font-size: 45px !important;
+    }
+}

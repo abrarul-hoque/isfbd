@@ -1,0 +1,38 @@
+.repIntro-bg{
+    background-image: url(../../resource/image/group-photo-white-2.png);
+    text-align: center;
+    background-position: 50% 0;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+}
+
+
+.repIntro-bg h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.repPara{
+    padding: 10px 120px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #282828;
+}
+
+
+
+
+/* * mobile/ Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .repIntro-bg h1{
+        font-size: 30px;
+    }
+    .repPara{
+        padding: 10px 30px;
+        text-align: justify;
+    }
+
+
+}

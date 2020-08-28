@@ -1,32 +1,46 @@
+.topNavItem{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+
 .logo{
     width:200px;
-    height: 73px;
+    height: 65px;
 }
 .nav-link{
     color: #e7247d !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
     padding: 10px 15px !important;
-    margin-left: 10px;
+    margin-left: 8px;
 }
  /* .nav-link:hover{
     color: #ffffff !important;
-    font-size: 18px !important;
-    padding: 10px 15px !important;
     background-color: #6c3d91;
-    border-radius: 10px;
-} */
-
-.nav-link.active{
-    color: #6c3d91 !important;
-    font-size: 18px !important;
-    padding: 10px 15px !important;
-    border: 2px solid #6c3d91;
     border-radius: 10px;
 }
 
+.nav-link.active{
+    color: #e7247d !important;
+    border: 2px solid #6c3d91;
+    border-radius: 10px;
+} */
 
 
-/* * Small Screen */
+/* Navbar Active Color Style */
+/* .nav-link.active,  .nav-link.show, .show>.nav-link {
+    background-color: red !important;
+    color: rgb(248, 37, 0) !important;
+    font-weight: 700;
+} */
+
+
+
+/* * mobile/ Small Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
     .logo{
         width: 180px !important;

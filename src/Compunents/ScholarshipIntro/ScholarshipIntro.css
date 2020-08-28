@@ -1,0 +1,30 @@
+/* .scholarshipIntroTitle{
+    font-size: 56px;
+    color: #282828;
+    text-transform: uppercase;
+    font-family: "Noto Sans";
+    padding: 30px 20px;
+    background-color:tomato;
+}
+
+.scholarshipPara{
+    padding: 20px 80px;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color: #4c5c67;
+    line-height: 30px;
+}
+ */
+
+
+
+/* for small Screen */
+/* @media only screen and (min-width: 300px) and (max-width: 500px){
+    .scholarshipIntroTitle{
+        font-size: 35px !important;
+        padding: 50px 0;
+    }
+    .scholarshipPara{
+        padding: 30px 20px;
+    }
+} */

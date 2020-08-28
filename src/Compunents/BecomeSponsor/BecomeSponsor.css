@@ -1,0 +1,33 @@
+.container{
+    padding: 0 !important;
+}
+.become-sponsor-block{
+    padding: 50px 0;
+}
+
+.sponsor-title h1{
+    color: #282828;
+    font-size: 64px;
+    font-family: 'Noto Sans';
+    letter-spacing: 3px;
+}
+
+.sponsor-logo-block{
+    padding: 30px 0;
+}
+
+
+
+
+/* * mobile/ Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .sponsor-title h1{
+        color: #282828;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .sponsor-logo-div{
+        margin-bottom: 50px;
+        padding: 0 30px;
+    }
+}

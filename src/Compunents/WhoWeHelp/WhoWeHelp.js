@@ -20,8 +20,8 @@ const WhoWeHelp = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 w-100">
-                        <img className="cStudentImg" src={criteriaStudent} alt=""/>
+                    <div className="col-md-6 team-side-img">
+                        <img className="cStudentImg" src={criteriaStudent} alt="" fluid/>
                     </div>
                 </div>
             </div>

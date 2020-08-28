@@ -1,5 +1,10 @@
+.sliderHome{
+    padding-top: 50px;
+}
+
 
 .carousel-text{
+    display: block;
     color: white;
     opacity: 100%;
     font-size: 40px;
@@ -21,7 +26,7 @@
     font-size: 50px;
 }
 
-.overlay{
+/* .overlay{
     position: absolute;
     top: 0px;
     left: 0px;
@@ -29,7 +34,7 @@
     height: 100%;
     background-color: rgb(143, 143, 143);
     opacity: 0.6;
-}
+} */
 
 .slider-btn{
     padding:10px 35px;
@@ -85,6 +90,9 @@
 
 /* * Small Screen */
 @media only screen and (min-width: 300px) and (max-width: 500px){
+    .sliderHome{
+        padding-top: 90px;
+    }
     .carousel-text h1{
         top:10%;
         font-size: 14px;

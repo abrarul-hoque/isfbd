@@ -1,0 +1,26 @@
+.teamTitleBg{
+    background-image: url(../../resource/image/students-banner.png);
+    text-align: center;
+    background-position: 50% 0;
+    background-size: cover;
+    padding: 180px 0 80px 0;
+    position: relative;
+}
+
+.teamTitle h1{
+    padding: 80px 0;
+    font-size: 80px !important;
+    font-weight: 800;
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 3px;
+}
+
+
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .teamTitle h1{
+        font-size: 45px !important;
+    }
+}

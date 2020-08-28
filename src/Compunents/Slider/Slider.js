@@ -6,13 +6,13 @@ import './Slider.css';
 
 const Slider = () => {
     return (
-        <div>
+        <div className="sliderHome">
             <Carousel>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src={fStudent}
-                        alt="First slide"
+                        alt="First slide image"
                     />
                     <div className="doverlay"></div>
                     <div className="carousel-text d-block">
