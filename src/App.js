@@ -1,10 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './App.css';
 import Manubar from './Compunents/Manubar/Manubar';
@@ -15,6 +13,7 @@ import NotFound from './Compunents/NotFound/NotFound';
 import Team from './Compunents/Team/Team';
 import Scholarship from './Compunents/Scholarship/Scholarship';
 import Representative from './Compunents/Representative/Representative';
+import PostScholarship from './Compunents/PostScholarship/PostScholarship';
 
 
 function App() {
@@ -40,6 +39,9 @@ function App() {
           </Route>
           <Route path="/registration">
             <NotFound></NotFound>
+          </Route>
+          <Route path="/post-scholarship">
+            <PostScholarship></PostScholarship>
           </Route>
           <Route path="/">
             <Home></Home>

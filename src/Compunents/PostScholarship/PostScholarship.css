@@ -1,0 +1,39 @@
+.post-scholarship-block{
+    padding: 120px 0px;
+}
+.post-scholarship-title-block{
+    background-color: #002366;
+    color: white;
+    padding: 20px 0;
+}
+.scholarshipform{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.scholarshipInfoTitleName{
+    font-size: 24px;
+    color: #2e57cf;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.error{
+    color: red;
+    text-align: left !important;
+}
+
+
+.scholarshipSubmitBtn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #002366;
+    color: white;
+    font-weight: 700;
+}
+.scholarshipSubmitBtn:hover{
+    color: white;
+    background-color: #2352a8;
+    
+}

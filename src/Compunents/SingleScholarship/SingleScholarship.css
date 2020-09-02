@@ -1,0 +1,135 @@
+.scholarshipTopTitle{
+    font-size: 56px;
+    background-color:#002366;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Noto Sans";
+    padding: 30px 40px;
+}
+
+.scholarship-details{
+    padding: 20px 0px;
+    font-family: "Noto Sans";
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.scholarship-countryName{
+    font-weight: 700;
+    font-size: 26px;
+    text-align: left;
+}
+
+.scholarship-deadline{
+    color: #fa2b07;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.scholarship-description-miniTitle{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 40px 0 10px;
+    color: #7500e9;
+}
+
+.application-process{
+    color: white !important;
+    background-image: linear-gradient(#1f3E99, #6c3d91 ,#e7247d);
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 8%;
+}
+
+.application-process-Title{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+
+.scholarship-facility-list li{
+    list-style:none;
+    font-size: 18px;
+}
+
+
+.btn-div{
+    margin-top: 30px;
+}
+.applyNowBtn{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #002366;
+    color: white;
+    font-weight: 500;
+}
+.applyNowBtn:hover{
+    background-color: #2d5bb1;
+    transition: 0.5s;  
+}
+
+
+.visit-Official-web-Btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color:#2d5bb1;
+    color: white;
+    font-weight: 700;
+}
+.visit-Official-web-Btn:hover{
+    background-color: #002366;
+    transition: 0.5s;  
+}
+ 
+.applicatoin-process-block{
+    padding: 40px 0;
+}
+
+
+
+/* =====================================for small or Mobile Screen======================================*/
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .scholarshipIntroTitle{
+        font-size: 35px !important;
+        padding: 50px 0;
+    }
+    .scholarshipTopTitle{
+        padding: 30px 10px;
+        font-size: 26px;
+    }
+    .scholarship-image{
+        width: 100%;
+    }
+    
+    .scholarship-details{
+        padding: 30px 15px;
+        font-size: 15px;
+    }
+    .scholarship-description{
+        padding: 10px 8px;
+    }
+    .scholarship-deadline{
+        font-size:18px;
+    }
+
+    .scholarship-description-miniTitle{
+        font-size: 20px;
+    }
+    
+    .applyNowBtn{
+        padding: 8px 10px;
+        font-size: 16px;
+        line-height: normal;
+    }
+    .visit-Official-web-Btn{
+        padding: 8px 10px;
+        font-size: 16px;
+        line-height: normal;
+    }
+}

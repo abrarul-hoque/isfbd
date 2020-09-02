@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../../resource/image/about-banner.jpg';
 import './AboutusTitle.css';
 
 const AboutusTitle = () => {

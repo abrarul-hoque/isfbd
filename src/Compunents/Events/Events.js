@@ -1,7 +1,6 @@
 import React from 'react';
 import './Events.css';
 import eventImg from '../../resource/image/ISF-Graduation-Graphic-2.png';
-import Home from '../Home/Home';
 
 const Events = () => {
     return (
