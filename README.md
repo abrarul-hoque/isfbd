@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name: The International Student Forum, Bangladesh (ISFBD) 
 
-## Available Scripts
+<a href="https://isfbd.netlify.app/">Live Link </a>
 
-In the project directory, you can run:
+## Description:
 
-### `npm start`
+The International Student Forum, Bangladesh (ISFBD) is dedicated to fostering a supportive and engaging community for international students in Bangladesh. The website offers comprehensive information about the forum’s mission, upcoming events, valuable resources, and various community initiatives. Serving as an interactive platform, ISFBD enables students to share their experiences, seek advice, and participate in a wide range of cultural and educational activities. The ultimate goal is to enrich the international student experience in Bangladesh through effective collaboration, networking, and mutual support.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Key Features:
+<b> Mission and Vision: </b> Detailed insights into ISFBD’s objectives and goals.
+<b> Events and Activities:</b> Information on upcoming events, workshops, and social gatherings.
+<b> Resources and Support: </b> Access to essential resources and a support network for international students.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Technology Used:
+React, React Router, Bootstrap, Matrial UI,  Firebase, Mongodb, Netlify, cPanel.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Local Installation Guide:
+1. Clone the repository from <a href="https://github.com/abrarul-hoque/isfbd">GitHub Repo</a>.
+2. Navigate to the project directory in your terminal.
+3. Install dependencies listed on package.json using npm install or yarn install.
+4. Set up your MongoDB database and configure your environment variables for MongoDB URI, Firebase configuration, etc.
+5. Run the frontend and backend servers separately using npm start or yarn start.
+5. Access the application locally via http://localhost:3000 for frontend and http://localhost:5000 for backend.
